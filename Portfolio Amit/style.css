@@ -1,0 +1,262 @@
+
+body{
+  font-family: 'Patrick Hand SC';
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+/* navbar start */
+.navbar{
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.navbar-brand{
+    margin-left: 1.5rem;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.collapse{
+    margin-right: 2rem;
+}
+
+/* navbar end */
+
+
+/* header start */
+
+  header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  header img {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  header .intro-text .name {
+    display: block;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em;
+  }
+  header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+  }
+  @media (min-width: 768px) {
+    header .container {
+      padding-top: 200px;
+      padding-bottom: 100px;
+    }
+    header .intro-text .name {
+      font-size: 4.75em;
+    }
+    header .intro-text .skills {
+      font-size: 1.75em;
+    }
+  }
+
+/* header end */
+
+
+
+/* home start */
+.Intro-page{
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* home end */
+
+/* About start */
+.About-page{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.About-container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.About-page h1{
+    padding-bottom: 3rem;
+}
+
+@media only screen and (max-width: 400px) {
+    .About-container p {
+      font-size: 0.8rem;
+    }
+  }
+  @media only screen and (min-width: 400px) {
+    .About-container p {
+      font-size: 1.2rem;
+    }
+  }
+
+
+
+/* About end */
+
+
+/* skills start */
+.skills-item:hover{
+    background-color: rgba(78, 75, 75, 0.1);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+   
+
+}
+
+
+/* skills end */
+
+
+
+
+
+  
+
+
+/* project start */
+.projects{
+    background-color: transparent;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+/* Project items */
+
+.card {
+    border-radius: 10px; 
+    overflow: hidden;
+    border: 0;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06),
+                0 2px 4px rgba(0, 0, 0, 0.07);
+    transition: all 0.15s ease;
+}
+
+.card:hover {
+          box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1),
+                      0 10px 8px rgba(0, 0, 0, 0.015);
+}
+
+.card-body .card-title {
+               font-family: 'Lato', sans-serif;
+               font-weight: 700;
+               letter-spacing: 0.3px;
+               font-size: 24px;
+               color: #121212;
+}
+
+.card-text {
+          font-family: 'Lato', sans-serif;
+          font-weight: 400;
+          font-size: 15px;
+          letter-spacing: 0.3px;
+          color: #4E4E4E;
+
+}
+
+.card .container {
+        width: 88%;
+       background: #F0EEF8;
+        border-radius: 10px;
+        height: 140px;
+      display: flex;
+     align-items: center;
+      justify-content: center;
+}
+
+.container:hover > img {
+                    transform: scale(1.2);
+}
+
+.container img {
+             padding: 75px;  
+            margin-top: -40px;
+            margin-bottom: -40px;
+           transition: 0.4s ease;
+           cursor: pointer;
+}
+
+/* Project items */
+
+/* project end */
+
+
+/* contact start */
+
+.contact{
+    background-color: #F0EEF8;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.contact .container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06),
+                0 2px 4px rgba(0, 0, 0, 0.07);
+    transition: rgb(14, 10, 10) 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+  
+    
+
+}
+
+@media only screen and (max-width: 726px) {
+    .contact .container {
+      font-size: 0.8rem;
+      width: 80%;
+
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    .contact .container {
+      font-size: 0.8rem;
+      width: 70%;
+
+    }
+  }
+
+  @media only screen and (min-width: 350px) {
+    .contact .container {
+      width: 50%;
+
+    }
+  }
+
+/* centact end */
+
+/* Footer start */
+
+
+/* Footer end */
