@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog10</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/x-icon" href="./image/favicon.png">
+   <!-- Bootstrap CSS and JS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script></head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand d-md-none" href="#">
+            <img src="./image/8660-removebg-preview.png"  title="Nature" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto ">
+              <li class="nav-item ">
+                <a class="nav-link " aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#about">About</a>
+              </li>
+              <a class="navbar-brand d-none d-md-block" href="#">
+                <img src="./image/8660-removebg-preview.png" alt="logo"  title="Nature">
+              </a>
+              <li class="nav-item">
+                <a class="nav-link " href="#blogs">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- craousal -->
+       <section class="carousel-section" id="home">
+      <div id="planet" class="carousel slide" data-bs-ride="carousel">
+  
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#mars" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#earth" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#jupitor" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+        </div>
+        
+        <div class="carousel-inner  ">
+          <div class="carousel-item active">
+            <h3 class="carousel-title">Mars</h3>
+            <p class="carousel-description">Mars is a red dwarf planet located in the outer reaches of the solar system. It is the fourth planet from the sun and the second-smallest planet in the solar system.</p>
+            <img class=" w-100 " src="./image/planets-2.jpeg" alt="mars">
+           
+          </div>
+          <div class="carousel-item ">
+            <h3 class="carousel-title">Earth</h3>
+            <p class="carousel-description">Earth is the third planet from the Sun and the only known planet to harbor life. It is also the only known planet with liquid water on its surface.</p>
+            <img class="w-100" src="./image/planets-3.jpeg" alt="earth">
+          </div>
+          <div class="carousel-item ">
+            <h3 class="carousel-title">Jupiter</h3>
+            <p class="carousel-description">Jupiter is the fifth planet from the Sun and the largest planet in the solar system. It is the most massive planet in our solar system.</p>
+            <img class=" w-100  " src="./image/planets-4.jpeg" alt="jupiter">
+          </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#planet" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#planet" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        
+      </div>
+    </section>
+       
+    <!-- About  -->
+     <section  class="about-section p-3" id="about">
+      <div class="about-section">
+        <div class="inner-width">
+          <h1>About Us</h1>
+          <div class="border"></div>
+          <div class="about-section-row">
+            <div class="about-section-col">
+              <div class="about">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga provident ea hic, neque amet sequi temporibus iure aliquid placeat inventore. Quae dolores dolore, cum nulla quas ipsum facere maxime, necessitatibus!
+                </p>
+                <a href="#" class="btn brn-outline-dark">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+
+
+
+     <!-- Gallery -->
+      <section  class="blog-section p-3">
+     <div class="grid-wrapper">
+      <div>
+        <img src="https://images.unsplash.com/photo-1541845157-a6d2d100c931?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80" alt="" />
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1588282322673-c31965a75c3e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1351&amp;q=80" alt="" />
+      </div>
+      <div class="tall">
+        <img src="https://images.unsplash.com/photo-1588117472013-59bb13edafec?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt="">
+      </div>
+      <div class="wide">
+        <img src="https://images.unsplash.com/photo-1587588354456-ae376af71a25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="" />
+      </div>
+      <div>
+        <img src=" https://images.unsplash.com/photo-1558980663-3685c1d673c4?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=60" alt="" />
+      </div>
+      <div class="tall">
+        <img src="https://images.unsplash.com/photo-1588499756884-d72584d84df5?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=2134&amp;q=80" alt="" />
+      </div>
+      <div class="big">
+        <img src="https://images.unsplash.com/photo-1588492885706-b8917f06df77?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1951&amp;q=80" alt="" />
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1588247866001-68fa8c438dd7?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=564&amp;q=80" alt="" />
+      </div>
+    </div>
+    </section>
+
+
+
+     <!-- Blog page -->
+    <section class="bg-dark pt-5 pb-5 shadow-md" id="blogs">
+      <div class="container">
+        <div class="row p-4  text-center">
+          <div class="col-12 ">
+            <h1 class="text-uppwecase text-white border-bottom mb-4 p-3">Recent posts</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="https://i.postimg.cc/28PqLLQC/dotonburi-canal-osaka-japan-700.jpg" class="card-img-top" alt="Card Image">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Doton's canal</h5>
+                <p class="card-text mb-4">Is a manmade waterway dug in the early 1600's and now displays many landmark commercial locals and vivid neon signs.</p>
+                <a href="#" class="btn btn-outline-dark mt-auto align-self-start">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="https://i.postimg.cc/4xVY64PV/porto-timoni-double-beach-corfu-greece-700.jpg" class="card-img-top" alt="Card Image">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Corfu island</h5>
+                  <p class="card-text mb-4">Near Afionas village, on the west coast of Corfu island. The two beaches form two unique bays. The turquoise color of the sea contrasts to the high green hills surrounding it.</p>
+
+                <a href="#" class="btn btn-outline-dark mt-auto align-self-start">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="https://i.postimg.cc/TYyLPJWk/tritons-fountain-valletta-malta-700.jpg" class="card-img-top" alt="Card Image">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Tritons Fountain</h5>
+                <p class="card-text mb-4">Located just outside the City Gate of Valletta, Malta. It consists of three bronze Tritons holding up a large basin, balanced on a concentric base built out of concrete and clad in travertine slabs.</p>
+                <a href="#" class="btn btn-outline-dark mt-auto align-self-start">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- contact -->
+<div class="section" id="contact">
+  <div class="container">
+        <h1 class="section-head text-center py-5" id="contact">C O N T A C T <div class="border"></div></h1>
+  <div class="row">
+    <div class="col-md-6 ">
+      <form class="form-minimal">
+        <label class="col-sm-12 py-3">
+          <input type="name" class="form-control" placeholder="Fullname" required />
+        </label>
+        <label class="col-sm-12 py-3">
+          <input type="email" class="form-control" placeholder="E-mail" required />
+         
+        </label>
+        <label class="col-sm-12 py-3">
+          <textarea type="msg" class="form-control" rows="3" placeholder="Let's Connect" required></textarea>
+          
+        </label>
+        <label class="py-5">
+          <button type="submit" class="btn btn-outline-dark">S U B M I T</button>
+        </label>
+      </form>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-4 px-3 py-3 ">
+      <div class="contact-info">
+        <p>
+          <i class="fa-solid fa-map  mx-2">  </i> Nallasopara, Mumbai, India</p>
+        <p>
+          <i class="fa-solid fa-phone mx-2"></i> +91 9766334531</p>
+        <p>
+          <i class="fa-solid fa-envelope mx-2"></i> vamit00000@gmail.com</p>
+        <p>
+             <i class="fa-solid fa-briefcase mx-2"></i> <a href="https://luxury-jalebi-857393.netlify.app/">Portfolio</a>
+        </p>
+  
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+
+      
+
+
+</body>
+</html>
